@@ -14,12 +14,11 @@ function Details() {
       <p className="details__text">Будем благодарны, если Вы воздержитесь от криков «Горько» на празднике, ведь поцелуй - знак выражения чувств, он не может быть по заказу.</p>
       <p className="details__text">Если у Вас есть аллергия на какие-либо продукты питания, пожалуйста, сообщите нам заранее (медицинскую тайну гарантируем:))</p>
       <p className="details__text">Этот праздник нам помогают делать:<br />
-            Атмосферная локация и еда: GREENVALD Парк Скандинавия (https://park-scandinavia.ru/)<br />
-            Заботливо украшено: Belleza Свадебная мастерская (https://bellezadecor.ru/)<br />
-            Настроение создано ведущим: Антон Матвеев (https://vk.com/matveev_me)<br />
-            Все важные моменты сохранены на память:
-            фотограф Елена Успенская (https://wwoostudio.ru/)<br />
-            видеограф Дмитрий Юдин (https://wwoostudio.ru/video)</p>
+            Атмосферная локация и еда: <a className="details__link" href="https://park-scandinavia.ru/" target="_blank" rel="noreferrer">GREENVALD Парк Скандинавия</a><br />
+            Заботливо украшено: <a className="details__link" href="https://bellezadecor.ru/" target="_blank" rel="noreferrer">Belleza Свадебная мастерская</a><br />
+            Настроение создано ведущим: <a className="details__link" href="https://vk.com/matveev_me" target="_blank" rel="noreferrer">Антон Матвеев</a><br />
+            Все важные моменты сохранены на память: <a className="details__link" href="https://wwoostudio.ru/" target="_blank" rel="noreferrer">фотограф Елена Успенская</a>,<br />
+            <a className="details__link" href="https://wwoostudio.ru/video" target="_blank" rel="noreferrer">видеограф Дмитрий Юдин</a></p>
       <img src={greenCloud4} alt="зеленое облако" className="details__cloud"></ img>
     </section>
   );

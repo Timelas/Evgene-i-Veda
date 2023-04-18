@@ -295,15 +295,15 @@
   }
 
   .question__text {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 23px;
     width: 80%;
     margin: 20px 0 0;
   }
 
   .question__text-span {
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 18px;
   }
 
   .question__visible-radio {
@@ -326,7 +326,7 @@
   }
 
   .question__label {
-    margin: 10px 0 0;
+    margin: 13px 0 0;
   }
 
   .question__input {

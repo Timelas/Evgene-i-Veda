@@ -84,6 +84,7 @@
 @media screen and (max-width: 1700px) {
   .info-date__background {
     width: 100%;
+    left: 0;
   }
 
   .info-date__place {
@@ -188,7 +189,7 @@
   }
 
   .info-date__text {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 24px;
     margin: 7px 0 0;
   }

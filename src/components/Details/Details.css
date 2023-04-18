@@ -6,6 +6,19 @@
   position: relative;
 }
 
+.details__link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: color .3s, text-shadow .4s;
+  text-shadow: .5px 0px 1px #000;
+}
+
+.details__link:hover {
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 0px 0px 0px #000;
+}
+
 .details__header {
   height: 100px;
   object-fit: contain;
@@ -93,8 +106,8 @@
   }
 
   .details__text {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 21px;
     width: 80%;
     margin: 15px 0;
   }
