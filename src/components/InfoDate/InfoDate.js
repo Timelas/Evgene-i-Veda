@@ -27,8 +27,8 @@ function InfoDate() {
         <div className="info-date__check-in info-date__check-in-two">
           <img className="info-date__where" alt="праздничный банкет" src={banquet}></img>
           <p className="info-date__day">21.07.23</p>
-          <p className="info-date__text">GREENVALD Парк Скандинавия<br />Ленинградская область, пос. Горки, ул. Озерная 1А<br />Окончание праздника в 21:00</p>
-          <p className="info-date__text">Сбор гостей в 14:00</p>
+          <p className="info-date__text">GREENVALD Парк Скандинавия<br />Ленинградская область, пос. Горки, ул. Озерная 1А<br />Сбор гостей в 14:00</p>
+          <p className="info-date__text">Окончание праздника в 21:00</p>
         </div>
       </div>
     </section>
