@@ -81,6 +81,11 @@
   object-fit: contain;
 }
 
+.info-date__banquet {
+  height: 170px;
+  object-fit: contain;
+}
+
 @media screen and (max-width: 1700px) {
   .info-date__background {
     width: 100%;
@@ -123,6 +128,10 @@
   
   .info-date__where {
     height: 80px;
+  }
+
+  .info-date__banquet {
+    height: 130px;
   }
 }
 
@@ -167,6 +176,10 @@
 
   .info-date__where {
     height: 70px;
+  }
+
+  .info-date__banquet {
+    height: 110px;
   }
 }
 
@@ -215,6 +228,10 @@
 
   .info-date__where {
     height: 50px;
+  }
+
+  .info-date__banquet {
+    height: 90px;
   }
 
   .info-date__map {

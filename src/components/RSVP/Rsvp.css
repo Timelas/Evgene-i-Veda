@@ -22,7 +22,7 @@
   height: 1100px;
   object-fit: contain;
   position: absolute;
-  bottom: -250px;
+  bottom: -200px;
   left: 100px;
   z-index: -1;
 }
@@ -35,9 +35,9 @@
 }
 
 .rsvp__answer {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 37px;
-  margin: 10px 0;
+  margin: 30px 0 0;
 }
 
 .rsvp__form {
@@ -121,9 +121,9 @@
   }
 
   .rsvp__answer {
-    font-size: 18px;
+    font-size: 28px;
     line-height: 33px;
-    margin: 7px 0;
+    margin: 20px 0 0;
   }
 
   .rsvp__label {
@@ -168,8 +168,8 @@
   }
 
   .rsvp__answer {
-    font-size: 14px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 27px;
     margin: 15px 0 5px 0;
   }
 
@@ -232,8 +232,9 @@
   }
 
   .rsvp__answer {
-    font-size: 17px;
-    line-height: 22px;
+    font-size: 19px;
+    line-height: 23px;
+    margin: 20px 0 0;
   }
 
   .rsvp__form {

@@ -5,7 +5,7 @@ import "./Questions.css";
 
 function Questions() {
   const formRef = useRef(null)
-  const scriptUrl = "https://script.google.com/macros/s/AKfycby_BYT6LzPV3FZHn66CPeQcYu6bE5b3ZBjuvAoU08L_RdiIzQ7viRTg5mtfej77Y_iK/exec"
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbwzy5cHU67faaNcH11JAe--r3s9zvXVpAsLJmd_3apyUaHECkgx7s-wTa6Nr4efWJLW/exec"
   const [loading, setLoading] = useState(false);
   const [isFormVisible, setisFormVisible] = useState(true);
 
@@ -39,54 +39,54 @@ function Questions() {
           </p>
           <fieldset className="question__string">Предпочтения по еде:
             <label  htmlFor="chicken" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Еда" value="Курица" id="chicken"></input>
-              <span className="question__visible-checkbox"></span>
+              <input className="question__unvisible" type="radio" name="Еда" value="Курица" id="chicken"></input>
+              <span className="question__visible-radio"></span>
               <span className="question__text-span">Курица</span>
             </label>
             <label htmlFor="pork" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Еда" value="Свинина" id="pork"></input>
-              <span className="question__visible-checkbox"></span>
+              <input className="question__unvisible" type="radio" name="Еда" value="Свинина" id="pork"></input>
+              <span className="question__visible-radio"></span>
               <span className="question__text-span">Свинина</span>
             </label>
           </fieldset>
           <fieldset className="question__string">Пожелания по алкоголю::
             <label  htmlFor="sparkling" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Игристое вино" id="sparkling"></input>
+              <input className="question__unvisible" type="checkbox" name="Игристое вино" value="Игристое вино" id="sparkling"></input>
               <span className="question__visible-checkbox"></span>
               <span className="question__text-span">Игристое вино</span>
             </label>
             <label htmlFor="white" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Белое вино" id="white"></input>
+              <input className="question__unvisible" type="checkbox" name="Белое вино" value="Белое вино" id="white"></input>
               <span className="question__visible-checkbox"></span>
               <span className="question__text-span">Белое вино</span>
             </label>
             <label htmlFor="red" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Красное вино" id="red"></input>
+              <input className="question__unvisible" type="checkbox" name="Красное вино" value="Красное вино" id="red"></input>
               <span className="question__visible-checkbox"></span>
               <span className="question__text-span">Красное вино</span>
             </label>
             <label htmlFor="congnac" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Коньяк" id="congnac"></input>
+              <input className="question__unvisible" type="checkbox" name="Коньяк" value="Коньяк" id="congnac"></input>
               <span className="question__visible-checkbox"></span>
               <span className="question__text-span">Коньяк</span>
             </label>
             <label htmlFor="vodka" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Водка" id="vodka"></input>
+              <input className="question__unvisible" type="checkbox" name="Водка" value="Водка" id="vodka"></input>
               <span className="question__visible-checkbox"></span>
               <span className="question__text-span">Водка</span>
             </label>
             <label htmlFor="rum" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Ром" id="rum"></input>
+              <input className="question__unvisible" type="checkbox" name="Ром" value="Ром" id="rum"></input>
               <span className="question__visible-checkbox"></span>
               <span className="question__text-span">Ром</span>
             </label>
             <label htmlFor="gin" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Джин" id="gin"></input>
+              <input className="question__unvisible" type="checkbox" name="Джин" value="Джин" id="gin"></input>
               <span className="question__visible-checkbox"></span>
               <span className="question__text-span">Джин</span>
             </label>
             <label htmlFor="noalco" className="question__label">
-              <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Безалкогольные напитки" id="noalco"></input>
+              <input className="question__unvisible" type="checkbox" name="Безалкогольные напитки" value="Безалкогольные напитки" id="noalco"></input>
               <span className="question__visible-checkbox"></span>
               <span className="question__text-span">Безалкогольные напитки</span>
             </label>
@@ -98,7 +98,7 @@ function Questions() {
               <span className="question__text-span">Да</span>
             </label>
             <label className="question__label" htmlFor="no-transfer">
-              <input className="question__unvisible" type="radio" name="Трансфер" value="Нужен" id="no-transfer"></input>
+              <input className="question__unvisible" type="radio" name="Трансфер" value="Не нужен" id="no-transfer"></input>
               <span className="question__visible-radio"></span>
               <span className="question__text-span">Нет</span>
             </label>

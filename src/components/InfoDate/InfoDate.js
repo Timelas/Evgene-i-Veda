@@ -21,11 +21,11 @@ function InfoDate() {
         <div className="info-date__check-in">
           <img className="info-date__where" alt="торжественная регистрация" src={where}></img>
           <p className="info-date__day">19.07.23</p>
-          <p className="info-date__text">Дворец Бракосочетаяния № 2 <br /> Санкт-Петербург, ул. Фурштатская, д. 52 <br />Посещение по желанию</p>
+          <p className="info-date__text">Дворец Бракосочетания № 2 <br /> Санкт-Петербург, ул. Фурштатская, д. 52 <br />Посещение по желанию</p>
           <p className="info-date__text">Сбор гостей в 20:30</p>
         </div>
         <div className="info-date__check-in info-date__check-in-two">
-          <img className="info-date__where" alt="праздничный банкет" src={banquet}></img>
+          <img className="info-date__banquet" alt="праздничный банкет" src={banquet}></img>
           <p className="info-date__day">21.07.23</p>
           <p className="info-date__text">GREENVALD Парк Скандинавия<br />Ленинградская область, пос. Горки, ул. Озерная 1А<br />Сбор гостей в 14:00</p>
           <p className="info-date__text">Окончание праздника в 21:00</p>

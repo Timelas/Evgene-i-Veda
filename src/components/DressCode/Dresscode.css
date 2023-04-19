@@ -53,23 +53,23 @@
 }
 
 .dresscode__color_var_one {
-  background-color: #2f5907;
+  background-color: #808000;
 }
 
 .dresscode__color_var_two {
-  background-color: #e0b8c7;
+  background-color: #556B2F;
 }
 
 .dresscode__color_var_three {
-  background-color: #fcf3ed;
+  background-color: #A0522D;
 }
 
 .dresscode__color_var_four {
-  background-color: #a3a3a3;
+  background-color: #DEB887;
 }
 
 .dresscode__color_var_five {
-  background-color: #69725b;
+  background-color: #B8860B;
 }
 
 @media screen and (max-width: 1700px) {
