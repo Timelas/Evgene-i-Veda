@@ -10,7 +10,7 @@ function Dresscode() {
       <img src={greenCloud3} alt="зеленое облако" className="dresscode__cloud"></ img>
       <img src={birds} alt="птицы" className="dresscode__birds"></ img>
       <img src={dresscode} alt="заголовок" className="dresscode__header"></ img>
-      <p className="dresscode__description">Мы с удовольствием и трепетом готовимся к нашему празднику! Поддержите нас вашими улыбками и объятиями, а также красивыми нарядами в палитре торжества (соблюдение дресс-кода желательно, но не обязательно):</p>
+      <p className="dresscode__description">Мы с удовольствием и трепетом готовимся к нашему празднику! Поддержите нас вашими улыбками и объятиями, а также красивыми нарядами в пастельной палитре торжества (соблюдение дресс-кода желательно, но не обязательно):</p>
       <div className="dresscode__colors">
         <div className="dresscode__color dresscode__color_var_one"></div>
         <div className="dresscode__color dresscode__color_var_two"></div>
